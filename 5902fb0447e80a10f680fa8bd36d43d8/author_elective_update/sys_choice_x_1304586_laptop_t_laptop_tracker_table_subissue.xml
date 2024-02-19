@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subissue" table="x_1304586_laptop_t_laptop_tracker_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subissue</element>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:31:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subissue</sys_name>
+            <sys_package display_value="Laptop Tracker Application" source="x_1304586_laptop_t">5902fb0447e80a10f680fa8bd36d43d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Laptop Tracker Application">5902fb0447e80a10f680fa8bd36d43d8</sys_scope>
+            <sys_update_name>sys_choice_x_1304586_laptop_t_laptop_tracker_table_subissue</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:31:32</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Application crashes</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:36:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:41:26</sys_updated_on>
+            <value>app crash</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Battery problems</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:31:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:33:56</sys_updated_on>
+            <value>battery problem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>security_concerns</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data breaches</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:38:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:45</sys_updated_on>
+            <value>breaches</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Charging issues</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:34:06</sys_updated_on>
+            <value>charging</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Connectivity problems (USB ports, etc.)</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:32:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:34:12</sys_updated_on>
+            <value>connectivity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Display problems</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:31:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:34:17</sys_updated_on>
+            <value>display</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keyboard or touchpad malfunctions</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:34:24</sys_updated_on>
+            <value>keyboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>security_concerns</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost or stolen laptop</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:38:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:41</sys_updated_on>
+            <value>lost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Limited or no internet access</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:18</sys_updated_on>
+            <value>no internet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operating system errors</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:35:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:41:30</sys_updated_on>
+            <value>os</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Slow performance</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:41:23</sys_updated_on>
+            <value>slow performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software updates/installation problems</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:37:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:41:19</sys_updated_on>
+            <value>software update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>security_concerns</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized access</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:38:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:49</sys_updated_on>
+            <value>unauthorized access</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>security_concerns</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Virus or malware infections</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:37:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:53</sys_updated_on>
+            <value>virus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VPN issues</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:39:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:22</sys_updated_on>
+            <value>vpn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network_issues</dependent_value>
+            <element>subissue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wi-Fi connectivity problems</label>
+            <language>en</language>
+            <name>x_1304586_laptop_t_laptop_tracker_table</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-19 19:39:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-19 19:40:26</sys_updated_on>
+            <value>wifi</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

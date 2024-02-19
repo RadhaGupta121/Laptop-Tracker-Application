@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5c54b7c447e80a10f680fa8bd36d436a" label="Laptop Tracker Table" max_length="40" name="x_1304586_laptop_t_laptop_tracker_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Designation" mandatory="true" max_length="40" name="designmation" reference="cmn_department" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="Customer support" value="cs"/>
+                <element inactive_on_update="false" label="Development" value="dev"/>
+                <element inactive_on_update="false" label="Finance" value="finance"/>
+                <element inactive_on_update="false" label="HR" value="hr"/>
+                <element inactive_on_update="false" label="IT" value="it"/>
+                <element inactive_on_update="false" label="Sales" value="sales"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element attributes="encode_utf8=false" label="Employee name" mandatory="true" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hardware_issues" label="Issue" mandatory="true" max_length="40" name="issue" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware Issues" value="hardware_issues"/>
+                <element inactive_on_update="false" label="Network Issues" value="network_issues"/>
+                <element inactive_on_update="false" label="Security Concerns" value="security_concerns"/>
+                <element inactive_on_update="false" label="Software Issues" value="software_issues"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="new" label="laptop type" mandatory="true" max_length="40" name="laptop_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="new" value="new"/>
+                <element inactive_on_update="false" label="old" value="old"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="issue" dependent_on_field="issue" label="Subissue" max_length="40" name="subissue" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="software_issues" inactive_on_update="false" label="Application crashes" value="app crash"/>
+                <element dependent_value="hardware_issues" inactive_on_update="false" label="Battery problems" value="battery problem"/>
+                <element dependent_value="hardware_issues" inactive_on_update="false" label="Charging issues" value="charging"/>
+                <element dependent_value="hardware_issues" inactive_on_update="false" label="Connectivity problems (USB ports, etc.)" value="connectivity"/>
+                <element dependent_value="security_concerns" inactive_on_update="false" label="Data breaches" value="breaches"/>
+                <element dependent_value="hardware_issues" inactive_on_update="false" label="Display problems" value="display"/>
+                <element dependent_value="hardware_issues" inactive_on_update="false" label="Keyboard or touchpad malfunctions" value="keyboard"/>
+                <element dependent_value="network_issues" inactive_on_update="false" label="Limited or no internet access" value="no internet"/>
+                <element dependent_value="security_concerns" inactive_on_update="false" label="Lost or stolen laptop" value="lost"/>
+                <element dependent_value="software_issues" inactive_on_update="false" label="Operating system errors" value="os"/>
+                <element dependent_value="software_issues" inactive_on_update="false" label="Slow performance" value="slow performance"/>
+                <element dependent_value="software_issues" inactive_on_update="false" label="Software updates/installation problems" value="software update"/>
+                <element dependent_value="security_concerns" inactive_on_update="false" label="Unauthorized access" value="unauthorized access"/>
+                <element dependent_value="security_concerns" inactive_on_update="false" label="Virus or malware infections" value="virus"/>
+                <element dependent_value="network_issues" inactive_on_update="false" label="VPN issues" value="vpn"/>
+                <element dependent_value="network_issues" inactive_on_update="false" label="Wi-Fi connectivity problems" value="wifi"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
